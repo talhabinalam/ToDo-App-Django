@@ -82,3 +82,4 @@ class TaskDelete(LoginRequiredMixin, DeleteView):
     context_object_name = 'tasks'
     success_url = reverse_lazy('task')
     
+
